@@ -4,3 +4,4 @@ langchain
 tenacity
 langchain_google_genai
 langchain_groq
+dotenv 
