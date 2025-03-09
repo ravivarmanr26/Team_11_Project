@@ -9,3 +9,4 @@ langchain-ollama  # For ChatOllama
 tenacity  # For retry logic
 transformers  # Required for HuggingFaceEmbeddings
 huggingface-hub  # Needed for Hugging Face models
+faiss-cpu  # Add this line (or faiss-gpu for GPU)
