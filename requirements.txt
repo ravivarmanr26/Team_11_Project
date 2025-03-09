@@ -1,6 +1,6 @@
-echo "streamlit" > requirements.txt
-echo "PyPDF2" >> requirements.txt
-echo "langchain" >> requirements.txt
-echo "tenacity" >> requirements.txt
-echo "langchain_google_genai" >> requirements.txt
-echo "langchain_groq" >> requirements.txt
+streamlit
+PyPDF2
+langchain
+tenacity
+langchain_google_genai
+langchain_groq
