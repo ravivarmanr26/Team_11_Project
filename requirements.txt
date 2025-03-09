@@ -1,7 +1,11 @@
 streamlit
 PyPDF2
+python-dotenv
 langchain
-tenacity
-langchain_google_genai
-langchain_groq
-dotenv 
+langchain-community  # Required for FAISS
+langchain-google-genai  # For GoogleGenerativeAIEmbeddings/ChatGoogleGenerativeAI
+langchain-groq  # For ChatGroq
+langchain-ollama  # For ChatOllama
+tenacity  # For retry logic
+transformers  # Required for HuggingFaceEmbeddings
+huggingface-hub  # Needed for Hugging Face models
